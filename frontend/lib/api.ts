@@ -1,5 +1,5 @@
 const API_URL =
-  process.env.API_URL || "https://ai-job-platform-o7t6.vercel.app/";
+  process.env.NEXT_API_URL || "http://localhost:8000";
 
 async function apiFetch<T>(
   endpoint: string,
